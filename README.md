@@ -8,6 +8,7 @@ In this exercise you will learn how to create a responsive layout from scratch. 
 - [Our First Stab at Responsive CSS](#our-first-stab-at-responsive-css)
 - [Exercise](#exercise)
 	- [Container](#container)
+	- [Grid](#grid)
 - [Resources](#resources)
 ***
 
@@ -140,10 +141,25 @@ Within the file `./public/css/container.css` you'll see we're applying styles to
 
 
 
+### Grid
+
+Using your element inspector and [Bootstrap's documentation](https://getbootstrap.com/docs/4.3/layout/grid/#responsive-classes). Each `.grid-item` must be of equal height and placed directly beside columns on either side. All CSS should be written in `./public/css/grid.css`. The challenge is to have each grid item span the correct amount of space for each breakpoint:
+
+| Breakpoint | Items per Row |
+| --- | --- |
+| Extra small | 1 |
+| Small | 2 |
+| Medium | 3 |
+| Large | 4 |
+| Extra large | 5 |
+
+
+
 
 ## Resources
 
 - [Bootstrap's Responsive Breakpoints](https://getbootstrap.com/docs/4.3/layout/grid/#grid-options)
+- [Bootstrap's Responsive Grid Classes](https://getbootstrap.com/docs/4.3/layout/grid/#responsive-classes)
 
 
 ### Media Queries
