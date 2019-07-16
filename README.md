@@ -6,6 +6,8 @@ In this exercise you will learn how to create a responsive layout from scratch. 
 - [Media Queries](#media-queries)
 - [Flexbox](#flexbox)
 - [Our First Stab at Responsive CSS](#our-first-stab-at-responsive-css)
+- [Exercise](#exercise)
+	- [Container](#container)
 - [Resources](#resources)
 ***
 
@@ -126,7 +128,22 @@ Underneath it try implementing a `@media` query that meets these conditions. The
 
 
 
+## Exercise
+
+Now that media queries and Flexbox have been properly introduced and practiced we're going to implement a webpage using them that mimics Bootstrap. We're going to implement responsiveness that also utilizes Bootstrap's [various breakpoints](https://getbootstrap.com/docs/4.3/layout/grid/#grid-options).
+
+
+
+### Container
+
+Within the file `./public/css/container.css` you'll see we're applying styles to all `<section>` elements that are direct children of our single `<main>` element. If we reference our element inspector within our browser's developer tools you can see the styles being applied to our `<section>` elements. Using [this table](https://getbootstrap.com/docs/4.3/layout/grid/#grid-options) as a reference implement the CSS required to replicate Bootstrap's `.container` class on all elements matching the `main > section` selector.
+
+
+
+
 ## Resources
+
+- [Bootstrap's Responsive Breakpoints](https://getbootstrap.com/docs/4.3/layout/grid/#grid-options)
 
 
 ### Media Queries
@@ -140,4 +157,4 @@ Underneath it try implementing a `@media` query that meets these conditions. The
 
 - [**Interneting is Hard:** Flexbox](https://internetingishard.com/html-and-css/flexbox/)
 - [**MDN:** Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
-- [**Codepen:** Flexbox Playground](https://codepen.io/enxaneta/full/adLPwv/)
+- [Flexbox Playground](https://codepen.io/enxaneta/full/adLPwv/)
