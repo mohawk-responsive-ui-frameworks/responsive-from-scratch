@@ -1,0 +1,26 @@
+.main-header {
+	display: flex;
+	align-items: center;
+	margin-bottom: 2rem;
+	padding: 1rem;
+	background-color: #343a40;
+	color: #fff;
+}
+
+.main-header h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 1.2;
+	font-size: 1.5rem;
+}
+
+/**
+ * @media: Center <h1> using `justify-content: center;`
+ *   applied to .main-header when the viewport is less than
+ *   or equal to 767px.
+ */
+@media (max-width: 767px) {
+	.main-header {
+		justify-content: center;
+	}
+}
