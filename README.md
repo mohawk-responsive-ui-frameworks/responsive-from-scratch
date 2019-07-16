@@ -89,10 +89,10 @@ TODO
 
 ### Media Queries
 
-- [MDN: Using Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
-- [MDN: `@media`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media)
+- [**MDN:** Using Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
+- [**MDN:** `@media`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media)
 
 
 ### Flexbox
 
-- [MDN: Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
+- [**MDN:** Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
