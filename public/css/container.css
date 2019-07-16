@@ -10,29 +10,12 @@ main > section {
 }
 
 /* Small */
-@media (min-width: 576px) {
-	main > section {
-		max-width: 540px;
-	}
-}
+
 
 /* Medium */
-@media (min-width: 768px) {
-	main > section {
-		max-width: 720px;
-	}
-}
+
 
 /* Large */
-@media (min-width: 992px) {
-	main > section {
-		max-width: 960px;
-	}
-}
+
 
 /* Extra large */
-@media (min-width: 1200px) {
-	main > section {
-		max-width: 1140px;
-	}
-}

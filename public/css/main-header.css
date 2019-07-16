@@ -19,8 +19,3 @@
  *   applied to .main-header when the viewport is less than
  *   or equal to 767px.
  */
-@media (max-width: 767px) {
-	.main-header {
-		justify-content: center;
-	}
-}
