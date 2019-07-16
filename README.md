@@ -79,7 +79,13 @@ You cannot nest `@media` queries in CSS, and you cannot use them inside of a CSS
 
 ## Flexbox
 
-TODO
+The _Flexible Box Module_ (aka Flexbox) is a one-dimensional layout model. In the past before Flexbox was widely supported web layouts were primarily created using [floats](https://developer.mozilla.org/en-US/docs/Web/CSS/float). Floats were designed to position content, such as an image embedded in text, in a way where the text or other inline content would wrap around it much like what you see in newspapers.
+
+The use of floats to implement a webpage's layout is rather cumbersome as they weren't designed for that purpose, yet it was the best solution before the adoption of Flexbox. Bootstrap version 4 and higher thankfully don't use floats for layout anymore, but instead use Flexbox.
+
+CSS's [grid property](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout) won't be covered in this course as it isn't widely supported yet at the time this course was written, and isn't used by Bootstrap yet anyway. I recommend learning it outside of this course as it's an up-and-coming technology.
+
+Complete the [Interneting is Hard Flexbox tutorial](https://internetingishard.com/html-and-css/flexbox/) to familiarize yourself with Flexbox.
 
 
 
@@ -90,9 +96,12 @@ TODO
 ### Media Queries
 
 - [**MDN:** Using Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
+- [**Interneting is Hard:** CSS Media Queries](https://internetingishard.com/html-and-css/responsive-design/#css-media-queries)
 - [**MDN:** `@media`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media)
 
 
 ### Flexbox
 
+- [**Interneting is Hard:** Flexbox](https://internetingishard.com/html-and-css/flexbox/)
 - [**MDN:** Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
+- [**Codepen:** Flexbox Playground](https://codepen.io/enxaneta/full/adLPwv/)
