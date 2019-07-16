@@ -1,0 +1,14 @@
+{
+  "name": "@mohawk/responsive-from-scratch",
+  "version": "0.1.0",
+  "description": "Exercise #3: Responsive from Scratch",
+  "scripts": {
+    "start": "http-server public -o",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthew Palmer <mspalmer91@gmail.com>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
