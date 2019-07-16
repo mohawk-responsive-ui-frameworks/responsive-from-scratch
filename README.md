@@ -5,6 +5,7 @@ In this exercise you will learn how to create a responsive layout from scratch. 
 ***
 - [Media Queries](#media-queries)
 - [Flexbox](#flexbox)
+- [Our First Stab at Responsive CSS](#our-first-stab-at-responsive-css)
 - [Resources](#resources)
 ***
 
@@ -86,6 +87,41 @@ The use of floats to implement a webpage's layout is rather cumbersome as they w
 CSS's [grid property](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout) won't be covered in this course as it isn't widely supported yet at the time this course was written, and isn't used by Bootstrap yet anyway. I recommend learning it outside of this course as it's an up-and-coming technology.
 
 Complete the [Interneting is Hard Flexbox tutorial](https://internetingishard.com/html-and-css/flexbox/) to familiarize yourself with Flexbox.
+
+
+
+
+## Our First Stab at Responsive CSS
+
+If we look at our previous exercise the contents of the main header at the top of our page become centered when we resize our browser's window to a viewport width of `767px` and under. Within this repository look at the contents of `public/css/main-header.css`. There are CSS rules applying the styles for the header that already exists on our page as well as a comment:
+
+```css
+/**
+ * @media: Center <h1> using `justify-content: center;`
+ *   applied to .main-header when the viewport is less than
+ *   or equal to 767px.
+ */
+```
+
+Underneath it try implementing a `@media` query that meets these conditions. The [`justify-content`](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content) property is a part of Flexbox and allows us to position content within a Flexbox container. Checkout the [Flexbox playground](https://codepen.io/enxaneta/full/adLPwv/) entry for this property for further clarification. Try to solve this on your own and check the solution below when complete.
+
+<details>
+  <summary>Solution</summary>
+
+  ```css
+/**
+ * @media: Center <h1> using `justify-content: center;`
+ *   applied to .main-header when the viewport is less than
+ *   or equal to 767px.
+ */
+@media (max-width: 767px) {
+	.main-header {
+		justify-content: center;
+	}
+}
+  ```
+
+</details>
 
 
 
